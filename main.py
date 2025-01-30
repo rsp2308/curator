@@ -25,7 +25,7 @@ def fetch_and_train():
     X = X.iloc[:-1]
 
     # Train/Test split xGradientBoostingRegressor
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=False)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=False,train_size=0.8)
 
     # Model: Linear Regression
     model = LinearRegression()

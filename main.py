@@ -24,7 +24,7 @@ def fetch_and_train():
     # Align X and y after shifting
     X = X.iloc[:-1]
 
-    # Train/Test split
+    # Train/Test split xGradientBoostingRegressor
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=False)
 
     # Model: Linear Regression

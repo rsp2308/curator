@@ -1,4 +1,4 @@
-# Stock Price Prediction
+# Trend Plot Prediction
 
 This project fetches historical stock data, calculates simple moving averages, and trains a linear regression model to predict the next day's closing price.
 
